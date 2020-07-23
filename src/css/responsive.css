@@ -1,7 +1,96 @@
 /*****************************************************************************/
 /* Some landscape phones and larger (576px) */
 /*****************************************************************************/
-@media only screen and (min-width: 376px){
+@media only screen and (min-width: 300px){
+
+  #quote{
+    font-size: 15px;
+    font-style: oblique;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 65px;
+    margin-bottom: 35px;
+    color: #87a4c5;
+  }
+
+  #kalief{
+    background-image: url("../img/Kalief.jpg");
+    height: 230px;
+    background-size: 220%;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 2800px;
+  }
+
+  blockquote {
+      padding-top: 0px;
+      padding-bottom: 20px;
+      padding-left: 2%;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+      margin-left: 0px;
+      margin-right: 0px;
+      background-color: #ffffff;
+      margin-bottom: 18px;
+  }
+
+  #split2{
+    padding-left:10px;
+    margin-left: 0px;
+    padding-top: 9px;
+    padding-right:17px;
+  }
+
+  #bail{
+    margin-left: 7%;
+    margin-right:7%;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  #date{
+    margin-top: 3px;
+    padding-left: 6%;
+    font-size: 0.7rem;
+    color: 	#a1a5aa;
+  }
+
+  #by{
+    padding-left: 6%;
+    color: #87a4c5;
+    font-size: 0.6rem;
+  }
+
+  #top{
+    margin-top: 5px;
+    padding-left: 10%;
+  }
+
+  #jail{
+    background-image: url("../img/cash.jpeg");
+    height: 110px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #jail2{
+    font-size: 1rem;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    padding-right: 10%;
+  }
+
   p{
     font-size: 0.8rem;
   }
@@ -80,11 +169,70 @@ blockquote{
 
 }
 
-
-
 }
 
-@media only screen and (min-width: 576px) {
+
+@media only screen and (min-width: 540px) {
+
+  #jail{
+    background-image: url("../img/cash.jpeg");
+    height: 175px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    margin-top: 75px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #kalief{
+    background-image: url("../img/Kalief.jpg");
+    height: 230px;
+    background-size: 150%;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 3500px;
+  }
+
+}
+@media only screen and (min-width: 596px) {
+
+  #kalief{
+    background-image: url("../img/Kalief.jpg");
+    height: 200px;
+    background-size: 150%;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 3500px;
+  }
+
+  #split2{
+    padding-left:10px;
+    margin-left: 0px;
+    padding-top: 9px;
+    padding-right:17px;
+  }
+
+  #date{
+    margin-top: 3px;
+    padding-left: 4%;
+    font-size: 0.7rem;
+    color: 	#a1a5aa;
+  }
+
+  #by{
+    padding-left: 4%;
+    color: #87a4c5;
+    font-size: 0.6rem;
+  }
+
+  #top{
+    margin-top: 5px;
+    padding-left: 10%;
+  }
+
 
     /***********/
     /* Colours */
@@ -286,6 +434,70 @@ blockquote{
 /*****************************************************************************/
 @media only screen and (min-width: 768px) {
 
+  #bail{
+    margin-left: 17%;
+    margin-right:17%;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  #kalief{
+    background-image: url("../img/Kalief.jpg");
+    height: 200px;
+    background-size: 100%;
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 3000px;
+  }
+
+  #split2{
+    padding-left:30px;
+    margin-left: 0px;
+    padding-right: 10%;
+  }
+  #date{
+    margin-top: 3px;
+    margin-left: 3.5%;
+    font-size: 15px;
+    color: 	#a1a5aa;
+  }
+
+  #by{
+    margin-left: 3.5%;
+    color: #87a4c5;
+    font-size: 20px;
+  }
+
+  #top{
+    margin-top: 25px;
+    padding-left: 10%;
+  }
+
+  #jail{
+    background-image: url("../img/cash.jpeg");
+    height: 200px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    margin-top: 75px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #jail2{
+    font-size: 1.5rem;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    padding-right: 10%;
+  }
+
   #org{
     margin-left: 29%;
     margin-right: 29%;
@@ -386,6 +598,66 @@ blockquote{
 /* Some desktops and larger (992px) */
 /*****************************************************************************/
 @media only screen and (min-width: 992px) {
+
+
+  blockquote {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 2%;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+      margin-left: 0px;
+      margin-right: 0px;
+      background-color: #ffffff;
+      margin-bottom: 18px;
+  }
+
+  #split2{
+    padding-left:30px;
+    margin-left: 0px;
+  }
+
+  #quote{
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 65px;
+    margin-bottom: 35px;
+    color: #87a4c5;
+  }
+
+  #bail{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-shadow: 0px 0px rgba(0,0,0,0);
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  #jail{
+    background-image: url("../img/cash.jpeg");
+    height: 300px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-size: 100%;
+    margin-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #jail2{
+    font-size: 2rem;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    padding-right: 10%;
+  }
+
   p{
     font-size: 1rem;
   }
