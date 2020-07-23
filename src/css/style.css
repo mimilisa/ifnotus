@@ -1,0 +1,700 @@
+/*****************************************************************************/
+/* Colours */
+/* Blue: #002f5e */
+/* Crimson: #a91639 */
+/* Purple: #662d91 */
+/* light blue: e5f2ff*/
+/*light grey: #DFDFDF*/
+/*#e0e6eb*/
+/*****************************************************************************/
+body {
+    color: #000;
+    background-color: #e0e6eb;
+}
+
+
+#change{
+  padding-top: 100px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 100px;
+}
+#fund{
+  padding-top: 100px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin-bottom: 30px;
+}
+
+#column{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#top{
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+
+#video{
+  margin-left: 10px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: space-evenly ;
+
+}
+
+/*
+#media{
+  background-image: url("../img/media.png");
+  height:350px;
+  background-size: 65%;
+  margin-bottom: 50px;
+}
+*/
+
+#media2{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+
+#intro{
+  padding-bottom: 100px;
+}
+#recent{
+  background-image: url("../img/news.png");
+  height: 206px;
+  margin-bottom: 100px;
+}
+
+
+#sign{
+  padding-top: 215px;
+  padding-bottom: 60px;
+  margin-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+blockquote{
+  padding-top: 20px;
+  margin-top: 25px;
+  background-color: #F2F2F2;
+  margin-left: 50px;
+}
+
+#recentarticles{
+  padding-top: 170px;
+  padding-bottom: 35px;
+}
+
+#flex{
+  display: flex;
+}
+
+#right{
+  padding-right: 2%;
+}
+p.byB{
+  padding-left: 0rem;
+  padding-top: 0rem;
+  display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#byB{
+  padding-left: 0px;
+}
+#byB2{
+  padding-left: 0px;
+}
+
+#b{
+  background-image: url(../img/brynarticle.jpg);
+  width: 1000px;
+}
+
+#b2{
+  background-image: url(../img/cash.jpeg);
+  width: 510px;
+  background-size: 100%;
+}
+
+#b3{
+  background-image: url(../img/Windrush.jpg);
+  width: 900px;
+  background-size: 110%;
+}
+h2{
+  display: block;
+      margin-block-start: 0.83em;
+      margin-block-end: 0em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+}
+#continue, #reading{
+  padding-left: 0rem;
+  padding-bottom: 1rem;
+}
+.instagram{
+  display: flex;
+  padding-top: 25px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-evenly ;
+}
+
+.youtube{
+  margin-top: 100px;
+  align-items: center;
+  padding-left: 28%;
+  padding-bottom: 5%;
+}
+
+ReactPlayer{
+  text-align: center;
+  align-items: center;
+}
+
+#fist{
+  color: #FF0000;
+  font-size: 1.8rem;
+}
+p{
+  padding-left: 10%;
+  padding-right: 10%;
+  color:#404040;
+}
+a, a:visited {
+    color: #002f5e;
+}
+
+#index, footer,
+header a, footer a,
+header a:visited, footer a:visited {
+    color: #fff;
+}
+
+#site-title, header nav a, header .social {
+    background-color: #002f5e;
+}
+
+footer {
+    background-color: #606060;
+}
+
+blockquote, th {
+    background-color: #eee;
+}
+
+
+
+/*****************************************************************************/
+/* Fonts */
+/*****************************************************************************/
+body {
+    /* Page 28 in the Identity Guidelines */
+    font-family: 'Taviraj', serif;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+h1, h2, h3, h4, h5, h6, nav, th {
+    /* Page 28 in the Identity Guidelines */
+    font-family: 'Taviraj', serif;
+    color:#404040;
+
+}
+
+h1{
+  padding-top: 50px;
+  padding-left: 1.9rem;
+}
+
+
+#site-title {
+    font-size: 2.0rem;
+    color:#404040;
+}
+
+
+h1 {
+    font-size: 2.75rem;
+}
+
+h2  {
+    padding-bottom: 0rem;
+    font-size: 1rem;
+}
+
+h3, .social a i  {
+    font-size: 1rem;
+}
+
+h4  {
+    font-size: 1.375rem;
+}
+
+h5  {
+    font-size: 1.25rem;
+}
+
+h6, nav ul li a  {
+    font-size: 1.125rem;
+}
+
+header nav {
+    font-weight: bold;
+}
+
+.quote-source {
+    font-style: italic;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+
+/*****************************************************************************/
+/*  General */
+/*****************************************************************************/
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+blockquote {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #ffffff;
+    margin-bottom: 18px;
+}
+
+
+
+.quote-source {
+    text-align: right;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 32px;
+}
+
+th, td {
+	padding: 8px 16px;
+	border: 1px solid black;
+}
+
+tfoot th {
+    text-align: left;
+}
+
+
+/*****************************************************************************/
+/*  Header */
+/*****************************************************************************/
+
+
+#wordmark {
+    width: 200px;
+    padding: 8px 0 0 32px;
+}
+
+#logo {
+    display: none;
+}
+
+#site-title {
+    padding: 16px 32px;
+    border-top: 1px dotted rgba(255, 255, 255, 0.5);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+header ul, header li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    display: block;
+    padding: 12px 32px;
+    margin: 0;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}
+
+header .social {
+    padding: 8px 32px;
+}
+
+
+/*****************************************************************************/
+/*  Content */
+/*****************************************************************************/
+article, main {
+    margin: 32px 32px 64px 32px;
+}
+
+
+
+#org{
+  margin-left: 37%;
+  margin-right: 37%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+#org2{
+  font-size: 0.9rem;
+  padding-top: 0px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+#more{
+  padding-top: 0px;
+  text-align: center;
+  padding-left: 0px;
+  font-size: 1.6rem;
+}
+
+/*****************************************************************************/
+/*  Footer */
+/*****************************************************************************/
+footer {
+    padding: 32px 0px 64px 32px;
+}
+
+
+#phone-and-email {
+    margin: 0;
+    padding: 8px 0 0 0;
+    list-style-type: none;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+#email{
+  padding-left: 30px;
+}
+
+#fb{
+  padding-left: 30px;
+}
+
+#phone{
+  padding-left: 30px;
+}
+
+#insta{
+  padding-left: 30px;
+
+}
+
+#phone-and-email {
+    padding-left: 36%;
+}
+
+#contact{
+  padding-left: 36%;
+  font-size: 2.5rem;
+}
+
+#copyright {
+    padding-top: 32px;
+}
+
+
+
+/*ARTICLES*/
+
+/*
+#full{
+  background-image: url("../img/smoke.jpg");
+  background-size: 400%;
+}*/
+
+#bail{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-shadow: 0px 0px rgba(0,0,0,0);
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+
+#jail{
+  background-image: url("../img/cash.jpeg");
+  height: 335px;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-size: 100%;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#jail2{
+  padding-top:0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  padding-right: 10%;
+}
+
+
+#top{
+  margin-top: 25px;
+  padding-left: 10%;
+}
+
+#quote{
+  font-size: 25px;
+  font-style: oblique;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 65px;
+  margin-bottom: 35px;
+  color: #87a4c5;
+}
+
+
+#mark{
+  margin-left: 0.25%;
+  padding-left: 0px;
+  font-size: 1px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  background-image: url("../img/quote.png");
+  background-size: 155px;
+  min-width:95px;
+  margin-right: 0px;
+}
+
+#cite{
+  display:flex;
+  margin-bottom: 10px;
+  padding-right: 8%;
+}
+
+p.quote{
+  font-size: 30px;
+  /*color: #787878;*/
+  color: #e0e6eb;
+}
+
+
+#space{
+  margin-bottom: 0px;
+}
+
+
+#kalief{
+  background-image: url("../img/Kalief.jpg");
+  height: 230px;
+  background-size: 100%;
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 5000px;
+}
+
+
+#split{
+  display: flex;
+}
+
+#split2{
+  padding-left:30px;
+  margin-left: 0px;
+}
+
+#try{
+  color:#ffffff;
+}
+
+#col{
+  display: flex;
+  margin-left: 0px;
+}
+#col2{
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+#bond{
+  background-image: url("../img/bail.jpg");
+  height:175px;
+  background-position: center;
+  background-size: 85%;
+}
+
+/*
+#site-title1{
+  text-shadow: 1px 1px rgba(0, 0, 0, 0);
+  font-size: 2.0rem;
+  color: #606060;
+  /*color: #ffffff;*//*
+  padding: 16px 32px;
+  border-top: 1px dotted rgba(255, 255, 255, 0);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+
+}*/
+
+
+#date{
+  margin-top: 3px;
+  margin-left: 3.5%;
+  font-size: 15px;
+  color: 	#a1a5aa;
+
+}
+
+#by{
+  margin-left: 3.5%;
+  color: #87a4c5;
+  font-size: 20px;
+
+
+}
+
+
+/*anti-black racism*/
+
+
+
+
+#anti{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-shadow: 0px 0px rgba(0,0,0,0);
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+#anti2{
+  background-image: url("../img/brynarticle.jpg");
+  height: 475px;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-size: 100%;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-size: 75%;
+}
+
+#last{
+  padding-bottom: 100px;
+}
+
+
+#antiImage{
+  background-image: url("../img/anti.jpg");
+  background-size: 100%;
+  height: 325px;
+}
+
+
+
+/*Jamaica*/
+
+#jamaica{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-shadow: 0px 0px rgba(0,0,0,0);
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+#jamaica2{
+  background-image: url("../img/Windrush.jpg");
+  height: 475px;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-size: 100%;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-size: 75%;
+}
+
+
+#flight{
+  background-image: url("../img/Jamaica Flight.jpg");
+  height: 315px;
+  background-size: 100%;
+}
+
+
+
+#video{
+  overflow-y: scroll;
+}
+#instagram{
+  overflow-y: scroll;
+}
+
+
+
+
+#heart{
+  margin-top: 0px;
+  background-image: url("../img/donate.jpeg");
+  background-size: 465px;
+  margin-left: 0px;
+  height: 220px;
+  margin-bottom: 40px;
+
+}
+
+#hand{
+  margin-top: 0px;
+  background-image: url("../img/hands.png");
+  background-size: 425px;
+  margin-left: 0px;
+  height: 220px;
+  margin-bottom: 40px;
+
+}
+
+#pen{
+  margin-top: 0px;
+  background-image: url("../img/signature.jpeg");
+  background-size: 433px;
+  margin-left: 0px;
+  height: 220px;
+  background-position: center;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,452 @@
+/*****************************************************************************/
+/* Some landscape phones and larger (576px) */
+/*****************************************************************************/
+@media only screen and (min-width: 376px){
+  p{
+    font-size: 0.8rem;
+  }
+
+h1{
+  font-size: 1.8rem;
+}
+
+#org{
+  margin-left: 27%;
+  margin-right: 27%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+#org2{
+  font-size: 0.5rem;
+  padding-top: 0px;
+  text-align: center;
+  padding-left: 0px;
+}
+
+#sign{
+  margin-top: 0px;
+  padding-top: 140px;
+  font-size: 1.2rem;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+blockquote{
+  font-size: 0.9rem;
+}
+
+#more{
+  font-size: 1rem;
+}
+
+#heart{
+  margin-top: 0px;
+  background-image: url("../img/donate.jpeg");
+  background-size: 265px;
+  margin-left: 0px;
+  height: 80px;
+  width: 175px;
+  margin-bottom: 20px;
+  position: center;
+
+}
+
+#hand{
+  margin-top: 0px;
+  background-image: url("../img/hands.png");
+  background-size: 225px;
+  margin-left: 0px;
+  height: 80px;
+  width: 175px;
+  margin-bottom: 20px;
+  position: center;
+
+
+}
+
+#pen{
+  margin-top: 0px;
+  background-image: url("../img/signature.jpeg");
+  background-size: 233px;
+  margin-left: 0px;
+  height: 80px;
+  width: 175px;
+  background-position: center;
+  margin-bottom: 20px;
+  position: center;
+
+}
+
+
+
+}
+
+@media only screen and (min-width: 576px) {
+
+    /***********/
+    /* Colours */
+    /***********/
+    #site-title, header nav a, header .social {
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+
+    header nav a {
+        transition: color 0.5s;
+        transition: background-color 2s;
+    }
+
+    header nav a:hover {
+        color: #000;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+
+    /***********/
+    /* Columns */
+    /***********/
+    .column-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .column-container .column {
+        flex: 1;
+        background-color: #eee;
+        padding: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    }
+
+
+    /**********/
+    /* Header */
+    /**********/
+    #hero-container {
+        position: relative;
+        height: 40vh;
+        min-height: 250px;
+        background-image: url("../img/bryn.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        transition: background-image 0.5s;
+    }
+
+    #hero-container.bee {
+        background-image: url("../img/smoke.jpg");
+    }
+
+    #hero-container.tractor {
+        background-image: url("../img/bryn.jpg");
+    }
+
+    #hero-container.meadow {
+        background-image: url("../img/meadow.jpg");
+    }
+
+    #site-title, header nav, header .social {
+        position: relative;
+        z-index: 2;
+    }
+
+    #logo {
+        z-index: 3;
+        background-image: url("../img/fist.png");
+    }
+
+    #hero-container .overlay {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+        display: none;
+        /*
+        opacity: 0;
+        transition: opacity 2s;
+        */
+    }
+
+    #wordmark {
+        padding-left: 10%;
+    }
+
+    #site-title {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    header nav a {
+        width: 100px;
+        padding-left: 8%;
+        border-right: 1px dotted rgba(255, 255, 255, 0.5);
+    }
+
+    header .social {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-left: 16px;
+        padding-right: 10%;
+        border-top: 1px dotted rgba(255, 255, 255, 0.5);
+        border-left: 1px dotted rgba(255, 255, 255, 0.5);
+    }
+
+    header .social ul {
+        overflow: hidden;
+    }
+
+    header .social li {
+        float: left;
+    }
+
+    /***********/
+    /* Content */
+    /***********/
+    article, main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    p{
+      font-size: 0.8rem;
+    }
+
+  h1{
+    font-size: 1.8rem;
+  }
+
+  #sign{
+    margin-top: 0px;
+    padding-top: 150px;
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+  }
+
+  blockquote{
+    font-size: 0.9rem;
+  }
+
+  #more{
+    font-size: 1rem;
+  }
+
+  #heart{
+    margin-top: 0px;
+    background-image: url("../img/donate.jpeg");
+    background-size: 265px;
+    margin-left: 0px;
+    height: 120px;
+    width: 200px;
+    margin-bottom: 20px;
+    position: center;
+
+  }
+
+  #hand{
+    margin-top: 0px;
+    background-image: url("../img/hands.png");
+    background-size: 225px;
+    margin-left: 0px;
+    height: 120px;
+    width: 200px;
+    margin-bottom: 20px;
+    position: center;
+
+
+  }
+
+  #pen{
+    margin-top: 0px;
+    background-image: url("../img/signature.jpeg");
+    background-size: 233px;
+    margin-left: 0px;
+    height: 120px;
+    width: 200px;
+    background-position: center;
+    margin-bottom: 20px;
+    position: center;
+
+  }
+
+}
+
+
+/*****************************************************************************/
+/* Some tablets and larger (768px) */
+/*****************************************************************************/
+@media only screen and (min-width: 768px) {
+
+  #org{
+    margin-left: 29%;
+    margin-right: 29%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+  }
+  #org2{
+    font-size: 0.9rem;
+    padding-top: 0px;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
+
+h1{
+  font-size: 1.8rem;
+}
+
+#sign{
+  margin-top: 0px;
+  padding-top: 150px;
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+blockquote{
+  font-size: 0.9rem;
+}
+
+#more{
+  font-size: 1rem;
+}
+
+#heart{
+  margin-top: 0px;
+  background-image: url("../img/donate.jpeg");
+  background-size: 265px;
+  margin-left: 0px;
+  height: 120px;
+  width: 275px;
+  margin-bottom: 20px;
+  position: center;
+
+}
+
+#hand{
+  margin-top: 0px;
+  background-image: url("../img/hands.png");
+  background-size: 225px;
+  margin-left: 0px;
+  height: 120px;
+  width: 275px;
+  margin-bottom: 20px;
+  position: center;
+
+
+}
+
+#pen{
+  margin-top: 0px;
+  background-image: url("../img/signature.jpeg");
+  background-size: 233px;
+  margin-left: 0px;
+  height: 120px;
+  width: 275px;
+  background-position: center;
+  margin-bottom: 20px;
+  position: center;
+
+}
+    #logo {
+        display: block;
+        width: 100px;
+        position: absolute;
+        top: 0;
+        right: 10%;
+        background-image: url("../img/fist.png");
+
+    }
+
+    #unit-signature {
+        width: 100px;
+    }
+
+
+
+}
+
+
+/*****************************************************************************/
+/* Some desktops and larger (992px) */
+/*****************************************************************************/
+@media only screen and (min-width: 992px) {
+  p{
+    font-size: 1rem;
+  }
+
+  #org{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+  }
+  #org2{
+    font-size: 0.9rem;
+    padding-top: 0px;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+    #site-title {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 3.75rem;
+    }
+
+    h2  {
+        font-size: 1.75rem;
+    }
+
+    #heart{
+      margin-top: 0px;
+      background-image: url("../img/donate.jpeg");
+      background-size: 465px;
+      margin-left: 0px;
+      height: 220px;
+      margin-bottom: 40px;
+      width: 98%;
+
+    }
+
+    #hand{
+      margin-top: 0px;
+      background-image: url("../img/hands.png");
+      background-size: 425px;
+      margin-left: 0px;
+      height: 220px;
+      margin-bottom: 40px;
+      width: 98%;
+
+    }
+
+    #pen{
+      margin-top: 0px;
+      background-image: url("../img/signature.jpeg");
+      background-size: 433px;
+      margin-left: 0px;
+      height: 220px;
+      background-position: center;
+      margin-bottom: 40px;
+      width: 98%;
+
+    }
+}

@@ -1,0 +1,59 @@
+
+
+#resource{
+
+}
+#emergency{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+#emergency2{
+  text-align: center;
+}
+
+#sources{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#eTitle{
+  font-size: 2rem;
+}
+
+
+#videos{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+  margin-left: 0px;
+  padding-left: 0px;
+  background-color: #DFDFDFDF;
+  margin-top: 0px;
+}
+
+
+#ted{
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#amy{
+  font-size: 1.35rem;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+#help{
+  font-size: 1.25rem;
+  padding-top: 50px;
+}
+
+#simple{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
