@@ -85,7 +85,7 @@ function Home() {
           </div>
     <div id="flex">
     <blockquote id ="b"></blockquote>
-    <blockquote><h2><i>Revisiting anti-Black racism</i></h2> <p id="byB"> <i>By Bryn Evans</i></p>
+    <blockquote><h2><i><Link to ="/Revisiting anti-Black racism">Revisiting anti-Black racism</Link></i></h2> <p id="byB"> <i>By Bryn Evans</i></p>
   	Amid the public outrage following the recent murders of George Floyd, Breonna Taylor,
     and Ahmaud Arbery in the United States, there seems to be the implicit but dangerously
     pervasive notion that the current white supremacy, police brutality, and selective denial
@@ -97,7 +97,7 @@ function Home() {
 
     <div id="flex">
     <blockquote id ="b2"></blockquote>
-    <blockquote> <h2><i>Why the United States needs to bail on cash bail</i></h2><p id="byB2"><i>By Bryn Evans</i></p>
+    <blockquote> <h2><i><Link to="/bail">Why the United States needs to bail on cash bail</Link></i></h2><p id="byB2"><i>By Bryn Evans</i></p>
     In 2010, Kalief Browder, then sixteen years old, was accused of stealing a backpack and granted
     US$3000 bail. Unable to pay, he was detained in New York’s infamous Rikers Island jail for three years
     awaiting trial, before charges were ultimately dismissed. In 2015, Browder committed suicide.
