@@ -274,7 +274,7 @@ return(
 
 	<p id="last">Simply put, money bail in the US needs to be thoroughly reformed. Its operation is financially and racially discriminatory, with consequences reaching from family detriment, to the effective privatization of Constitutional rights, to, in some scenarios, suicide. Already, in a neoliberalist country, wealth and race dictate one’s privileges within so many arenas—the criminal justice system cannot be one of them.</p></blockquote>
   <footer>
-  <h1 id="contact">GET IN TOUCH</h1>
+  <span id="contact">GET IN TOUCH</span>
 
       <div id="phone-and-email">
 
@@ -407,7 +407,7 @@ function Anti (){
 </blockquote>
 
 <footer>
-<h1 id="contact">GET IN TOUCH</h1>
+<span id="contact">GET IN TOUCH</span>
 
 <div id="phone-and-email">
 
@@ -472,7 +472,7 @@ function Jamaica(){
     </blockquote>
 
     <footer>
-    <h1 id="contact">GET IN TOUCH</h1>
+    <span id="contact">GET IN TOUCH</span>
 
     <div id="phone-and-email">
 

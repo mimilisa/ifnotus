@@ -169,6 +169,39 @@ blockquote{
 
 }
 
+  #contact{
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  #phone-and-email {
+    margin: 0;
+    padding: 1px 0 0 0;
+    list-style-type: none;
+    font-size: 1rem;
+    padding-bottom: 5%;
+  }
+  #email{
+    padding-left: 0px;
+  }
+
+  #fb{
+    padding-left: 3%;
+  }
+
+  #phone{
+    padding-left: 3%;
+  }
+
+  #insta{
+    padding-left: 3%;
+  }
+
 }
 
 
@@ -426,6 +459,38 @@ blockquote{
 
   }
 
+  #contact{
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  #phone-and-email {
+    margin: 0;
+    padding: 1px 0 0 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+  }
+  #email{
+    padding-left: 0px;
+  }
+
+  #fb{
+    padding-left: 3%;
+  }
+
+  #phone{
+    padding-left: 3%;
+  }
+
+  #insta{
+    padding-left: 3%;
+  }
 }
 
 
@@ -589,7 +654,38 @@ blockquote{
         width: 100px;
     }
 
+    #contact{
+      padding-top: 5%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 2rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
 
+    #phone-and-email {
+      margin: 0;
+      padding: 1px 0 0 0;
+      list-style-type: none;
+      font-size: 1.5rem;
+      padding-bottom: 5%;
+    }
+    #email{
+      padding-left: 0px;
+    }
+
+    #fb{
+      padding-left: 2%;
+    }
+
+    #phone{
+      padding-left: 2%;
+    }
+
+    #insta{
+      padding-left: 2%;
+    }
 
 }
 
@@ -719,6 +815,28 @@ blockquote{
       background-position: center;
       margin-bottom: 40px;
       width: 98%;
+    }
 
+    #phone-and-email {
+      margin: 0;
+      padding: 1px 0 0 0;
+      list-style-type: none;
+      font-size: 1.6rem;
+      padding-bottom: 5%;
+    }
+    #email{
+      padding-left: 0px;
+    }
+
+    #fb{
+      padding-left: 1%;
+    }
+
+    #phone{
+      padding-left: 1%;
+    }
+
+    #insta{
+      padding-left: 1%;
     }
 }

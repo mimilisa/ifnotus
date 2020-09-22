@@ -382,7 +382,7 @@ article, main {
 /*  Footer */
 /*****************************************************************************/
 footer {
-    padding: 32px 0px 64px 32px;
+    padding: 0px 0px 32px 24px;
 }
 
 
@@ -391,11 +391,11 @@ footer {
     padding: 8px 0 0 0;
     list-style-type: none;
     font-size: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
 }
 
 #email{
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 #fb{
@@ -408,15 +408,21 @@ footer {
 
 #insta{
   padding-left: 30px;
-
 }
 
 #phone-and-email {
-    padding-left: 36%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #contact{
-  padding-left: 36%;
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-size: 2.0rem;
   color: rgba(255, 255, 255, 0.8);
 }
