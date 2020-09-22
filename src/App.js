@@ -172,7 +172,7 @@ function Home() {
     <ReactPlayer url="https://www.youtube.com/watch?v=WKo8OrBdLz8"/>
   </div>
   	<footer>
-    <h1 id="contact">GET IN TOUCH</h1>
+    <span id="contact">GET IN TOUCH</span>
 
   	    <div id="phone-and-email">
 
