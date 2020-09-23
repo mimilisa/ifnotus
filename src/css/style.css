@@ -382,7 +382,7 @@ article, main {
 /*  Footer */
 /*****************************************************************************/
 footer {
-    padding: 0px 0px 32px 24px;
+    padding: 0px 0px 24px 0px;
 }
 
 
@@ -428,7 +428,8 @@ footer {
 }
 
 #copyright {
-    padding-top: 32px;
+    padding-top: 5%;
+    padding-left: 3%;
 }
 
 
